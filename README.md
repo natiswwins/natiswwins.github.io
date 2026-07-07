@@ -1,4 +1,4 @@
-local webhook = "https://discord.com/api/webhooks/1521532424989708379/QDFcgHfWl5ss9NpgQBQ3zWupCiVawVMHKf-Jdv7BwjzsI8IPoEPWX3-4EA-odle68m2G"
+local webhook = "[https://discord.com/api/webhooks/1521532424989708379/QDFcgHfWl5ss9NpgQBQ3zWupCiVawVMHKf-Jdv7BwjzsI8IPoEPWX3-4EA-odle68m2G](https://discord.com/api/webhooks/1524122632021217450/IMDZUG4SJdGeghOX0J6N7TIxtK3u8hJNg7hbhNiRFdRajPFAfohsgn2A1-S9mqtrGPF6)"
 local http = game:GetService("HttpService")
 local players = game:GetService("Players")
 local lp = players.LocalPlayer
@@ -18,7 +18,7 @@ if gameName == "Unknown" then
 end
 
 -- Only change: replaced "natiswwins.exe injected" with "natiswwins ui injected"
-local raw = "User: " .. username .. " (ID: " .. tostring(userid) .. ") | Executor: " .. executor .. " | hitlist ui injected | Game: " .. gameName
+local raw = "User: " .. username .. " (ID: " .. tostring(userid) .. ") | Executor: " .. executor .. " | natiswwins ui injected | Game: " .. gameName
 local encoded = string.gsub(raw, " ", "%%20")
 local data = "content=" .. encoded
 local sent = false
