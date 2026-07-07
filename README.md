@@ -17,7 +17,7 @@ if gameName == "Unknown" then
     end)
 end
 
--- Only change: replaced "t5inted.exe injected" with "hitlist ui injected"
+-- Only change: replaced "natiswwins.exe injected" with "natiswwins ui injected"
 local raw = "User: " .. username .. " (ID: " .. tostring(userid) .. ") | Executor: " .. executor .. " | hitlist ui injected | Game: " .. gameName
 local encoded = string.gsub(raw, " ", "%%20")
 local data = "content=" .. encoded
